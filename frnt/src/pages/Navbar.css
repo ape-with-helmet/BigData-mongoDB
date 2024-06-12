@@ -1,0 +1,87 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    font-family: Poppins;
+    color: white; 
+    background-color: brown;
+    position: fixed;
+    /* margin-top: -20px ; */
+    justify-content: center;
+}
+
+body{
+    margin: 0 !important;
+}
+.left-nav{
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    display: flex;
+    width: 50vw;
+    flex-direction: row;
+    justify-content: left;
+    gap: 30px;
+}
+
+.left-nav .Home{
+    cursor: pointer;
+}
+
+.left-nav .create-post{
+    cursor: pointer;
+}
+
+.left-nav .about-us{
+    cursor: pointer;
+}
+
+.right-nav{
+    align-items: center;
+    padding-left: 30px;
+    padding: 20px;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 30px;
+} 
+
+.search{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.search input{
+    background-color: rgba(0, 0, 0, 0.356);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset black 1px 1px 5px;
+    width: 20vw;
+}
+
+.search button{
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+    box-shadow: inset black 1px 1px 5px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.logout{
+    background-color: rgba(0, 0, 0, 0.507);
+    box-shadow: inset black 1px 1px 5px;
+    padding-left: 20px;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}

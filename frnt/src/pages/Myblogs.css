@@ -1,0 +1,103 @@
+/* General styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+/* Container for the blogs */
+.unique-blogs-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Blog box */
+.unique-blog-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Blog title */
+.unique-blog-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Blog content */
+.unique-blog-content {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Author and date */
+.unique-blog-author,
+.unique-blog-date {
+    font-size: 14px;
+    color: #888;
+}
+
+/* Tags section */
+.unique-blog-tags {
+    list-style: none;
+    padding: 0;
+}
+
+.unique-blog-tags li {
+    display: inline;
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+/* Buttons */
+.unique-blog-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.unique-blog-button:hover {
+    background-color: #888;
+    color: #fff;
+}
+
+.unique-blog-delete {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.unique-blog-edit {
+    background-color: #4caf50;
+    color: white;
+}
+
+/* Editing form */
+.unique-edit-input,
+.unique-edit-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.unique-edit-textarea {
+    resize: vertical;
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: Poppins;
+    /* color: white; */
+}
+.homepage-container{
+    justify-content: center;
+    background-image: url("./pexels-iriser-1379636.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-family: Poppins;
+}
+
+.homepage-text{
+    font-size: 70px;
+}
+.login-box{
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    /* background-color: green; */
+}
+.login-option{
+    /* background-color: #0000005e; */
+    width: 10%;
+    text-align: center;
+}
+.signup-option{
+    /* background-color: #fff; */
+    text-align: center;
+    width: 15%;
+}
